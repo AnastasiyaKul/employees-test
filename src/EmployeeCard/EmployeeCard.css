@@ -1,0 +1,65 @@
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    min-width: 320px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card>div {
+    margin-bottom: 20px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.imgContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jobTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.quoteWrap {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 265px;
+    width: calc(30vw + 30px);
+    min-width: 350px;
+    background-color: #dce0e8;
+    padding: 15px;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.quote {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button {
+    margin-top: 80px;
+}
